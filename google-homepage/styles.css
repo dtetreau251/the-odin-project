@@ -1,0 +1,82 @@
+body, a, p {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body, html {
+  font-size: small;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: right;
+  display: flex;
+}
+
+li {
+  float: right;
+  font-size: 13px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 9px;
+  text-decoration: none;
+}
+
+#sign {
+  padding: 7px 13px;
+  background:#4387fd;
+  color: white;
+  font-weight: bold;
+  margin: 6px;
+  border: none;
+  border-radius: 3px;
+}
+
+.right {
+  margin-left: auto;
+}
+
+#google {
+  margin-top: 16%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#searchbox {
+  width: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding: 13px;
+  border-radius: 20px;
+  border: .25px solid grey;
+}
+
+#lucky_button {
+margin-left: 1.5%;
+background-image: webkit-linear-gradient(top,#f5f5f5, #f1f1f1;
+border-radius: 4px;
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+height: 36px;
+line-height: 27px;
+}
+
+#google_button {
+  background-image: webkit-linear-gradient(top,#f5f5f5, #f1f1f1);
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  line-height: 27px;
+}
+
